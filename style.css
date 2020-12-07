@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background: #f1f1f1;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.container a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: #2c3e50;
+    color:white;
+    margin: 4px 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 22px;
+}
+.container a:hover{
+    background: #e67e22;
+}
+.container a i{
+    transition: 0.4s all;
+}
+.container a:hover > i{
+    transform: scale(1.6) rotate(25deg);
+}
